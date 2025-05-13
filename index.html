@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="/animate/animate.min.css">
     <title>Some Company</title>
 </head>
 <header>
@@ -33,13 +34,13 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, leo et condimentum ultricies, sem urna convallis metus, vel suscipit nibh lacus tincidunt ante</p>
         </div>
         <!-- ютуб видео  -->
-        <div class="main-grid-items">
-                <iframe width="660" height="415" src="https://www.youtube.com/embed/-4GmbBoYQjE?si=GymJYw6D1fdXtvSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="main-grid-items youtube-video">
+                <iframe src="https://www.youtube.com/embed/-4GmbBoYQjE?si=GymJYw6D1fdXtvSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </div>
     <!-- второй блок с грид сеткой  -->
     <div class="card-block">
-        <h2>Also very important title</h2>
+        <h2 class="wow_bounceInDown">Also very important title</h2>
             <div class="card-grid-container">
                 <div class="card-grid-items">
                     <h5>Title</h5>
@@ -93,5 +94,11 @@
     <footer>
         <h4>Some Company 2024</h4>
     </footer>
+
+
+    <script>
+        new WOW().init();
+    </script>
+
 </body>
 </html>

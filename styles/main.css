@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #3737b7;
+    background-color: #85dcb8;
 }
 
 .flex-header-container {
@@ -21,7 +21,7 @@ header {
 /* логотип  */
 .flex-header-items p {
     text-decoration: none;
-    color: #f64c72;
+    color: #e8a87c;
     font-size: 2vw;
     margin-left: 20%;
     margin-top: 2%;
@@ -35,8 +35,8 @@ header {
     font-size: 1.1vw;
 
     border-radius: 50px;
-    border: 2px solid #f64c72;
-    background-color: #3737b7;
+    border: 2px solid #e8a87c;
+    background-color: #75dab0;
     color: white;
 
     padding-left: 2%;
@@ -59,15 +59,15 @@ header {
 /* первый заголовок (важный) с видео  */
 
 .main {
-    background-color: #3737b7;
+    background-color: #85dcb8;
     height: 60vh;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
 
     -webkit-box-shadow: 0px 1px 10px -2px rgba(34, 60, 80, 0.2) inset;
--moz-box-shadow: 0px 1px 10px -2px rgba(34, 60, 80, 0.2) inset;
-box-shadow: 0px 1px 10px -2px rgba(34, 60, 80, 0.2) inset;
+    -moz-box-shadow: 0px 1px 10px -2px rgba(34, 60, 80, 0.2) inset;
+    box-shadow: 0px 1px 10px -2px rgba(34, 60, 80, 0.2) inset;
 }
 
 /* текст  */
@@ -76,22 +76,27 @@ box-shadow: 0px 1px 10px -2px rgba(34, 60, 80, 0.2) inset;
     margin-left: 20%;
     margin-top: 10%;
     font-size: 4vw;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .text-block p {
     font-size: 1.1vw;
-    color: rgb(227, 225, 225);
-    width: 60%;
+    color: rgb(255, 255, 255);
+    width: 80%;
     margin-left: 20%;
 }
 
 /* ютуб видео  */
 
 iframe {
-    margin-top: 7%;
-    margin-left: 7%;
-    
+-webkit-box-shadow: -1px 3px 21px 26px rgba(30, 231, 240, 0.2);
+-moz-box-shadow: -1px 3px 21px 26px rgba(30, 231, 240, 0.2);
+box-shadow: -1px 3px 21px 26px rgba(30, 231, 240, 0.2);
+
+    width: 60%;
+    height: 60%;
+    margin-top: 10%;
+    margin-left: 15%;
 }
 
 /* второй блок с грид сеткой  */
@@ -99,7 +104,7 @@ iframe {
 .card-block {
     height: 90vh;
     width: auto;
-    background-color: rgb(244, 244, 244);
+    background-color: #41b3a3;
 }
 
 .card-block h2 {
@@ -108,7 +113,12 @@ iframe {
     text-align: center;
     padding-top: 5%;
     margin-top: -1%;
-    color: rgb(53, 53, 53);
+    color: #e8a87c;
+}
+
+.card-block p {
+    color: rgb(225, 224, 224);
+    font-size: 1vw;
 }
 
 .card-grid-container {
@@ -124,14 +134,15 @@ iframe {
 
 .card-grid-items h5 {
     font-size: 1.3vw;
+    color: white;
 }
 
 .card-block button {
     font-size: 1.1vw;
 
     border-radius: 50px;
-    border: 2px solid #3737b7;
-    color: #3737b7;
+    border: 2px solid #e8a87c;
+    background-color: #31b9a7;
 
     padding-left: 2%;
     padding-right: 2%;
@@ -146,7 +157,7 @@ iframe {
 
 .midle a {
     text-decoration: none;
-    color: #3737b7;
+    color: #ffffff;
 }
 
 .card-block button:hover {
@@ -156,14 +167,14 @@ iframe {
 /* второй заголовок (менее важный)  */
 
 .second-title {
-    height: 40vh;
-    background-color: #3737b7;
+    height: 50vh;
+    background-color: #85dcb8;
 
     margin-top: -5%;
 }
 
 .second-title p {
-    color: #f64c72;
+    color: #e8a87c;
     font-family: "Dancing Script", cursive;
     text-align: center;
     font-size: 4vw;
@@ -175,8 +186,8 @@ iframe {
     font-size: 1.1vw;
 
     border-radius: 50px;
-    border: 2px solid #f64c72;
-    background-color: #3737b7;
+    border: 2px solid #e8a87c;
+    background-color: #75dab0;
     color: white;
 
     padding-left: 2%;
@@ -200,7 +211,13 @@ iframe {
 footer {
     text-align: center;
     font-size: 1vw;
-    height: 5vh;
+    height: 10vh;
     font-family: "Mulish", sans-serif;
-    /* margin-top: 5%; */
+    margin-top: -1.5%;
+    padding-top: 1%;
+    background-color: #85dcb8;
+    -webkit-box-shadow: 0px 1px 10px -2px rgba(34, 60, 80, 0.2) inset;
+    -moz-box-shadow: 0px 1px 10px -2px rgba(34, 60, 80, 0.2) inset;
+    box-shadow: 0px 1px 10px -2px rgba(34, 60, 80, 0.2) inset;
+    color: white;
 }
