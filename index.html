@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">   
-    <link rel="stylesheet" href="/animate/animate.min.css">
+    <link rel="stylesheet" href="/animate.css">
     <title>Some Company</title>
 </head>
 <header>
@@ -30,7 +30,7 @@
     <div class="main">
         <!-- текст -->
         <div class="main-grid-items text-block">
-            <h1>Most important <br>title on the page</h1>
+            <h1 class="animate__animated animate__bounce">Most important <br>title on the page</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, leo et condimentum ultricies, sem urna convallis metus, vel suscipit nibh lacus tincidunt ante</p>
         </div>
         <!-- ютуб видео  -->
@@ -85,7 +85,7 @@
     </div>
     <!-- второй заголовок (менее важный) -->
     <div class="second-title">
-        <p>Less important title</p>
+        <p class="animate__animated animate__bounce">Less important title</p>
             <button class="center">
                 <a href="/pages/reg.html">Contact us</a>
             </button>
@@ -96,8 +96,9 @@
     </footer>
 
 
-    <script>
-        new WOW().init();
+    <script src="/wow.min.js"></script>
+            <script>
+            new WOW().init();
     </script>
 
 </body>
